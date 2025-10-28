@@ -1,0 +1,30 @@
+ideias de fazer 
+
+* Teoria dos Números
+ Problemas de criptografia, como o RSA, que se utiliza de duas chaves, 
+ uma chave pública e uma chave privada (tem conteudo disso na materia de Matemática Discreta),
+ a gente desenvolve um RSA 100% baseado em teoria dos números 
+
+
+Backtracking e Força Bruta
+ Agendamento de aulas, como a professora tinha dito. Fazer um alg que encontre quando uma certa materia pode
+  dar aula, com as restrições de: - Não sobrepor, e - restrições do próprio professor, que não pode dar aula num certo horário, etc;
+
+Algoritimos Gulosos, otimização rápida, então caixas de supermercado precisam de troco rápido por exemplo;
+Problemas que envolvem Real Time Logic - Soft, sistemas que precisam de decisões rápidas porém com margens de erros, sem prejudicar tanto
+
+
+Divisão e Conquista / Busca Binária
+ Em empresas, com arquivos IMAGINARIOS, organizados por estruturas de dados, como uma tabela, para procura rápida,
+  (por já estarem organizados), podemos explicar como a busca é otimizada, pela pre-definida organização
+
+Programação Dinâmica
+ Procura de valor máximo, esse daqui é o que tem mais coisa que pode ser feita. 
+ Problema da mochila (O de encotnrar o valor máximo sem estourar o orçamento de algo)
+
+
+* Grafos
+ Problemas de caixeiro-viajante, melhor caminho a ser seguido, caminho que dê o maior flxuo ao 
+ final (encotnrando o Caminho Residual e complementando ao caminho original, mantendo assim uma 
+ restrição do que "entra" no caminho original, o fluxo que entra, é o mesmo que sai, passando sempre
+  pelos "melhores" locais, aqueles que cobram menos "pedágio", etc)

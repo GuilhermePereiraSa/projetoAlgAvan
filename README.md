@@ -1,3 +1,8 @@
-# projetoAlgAvan
-# projetoAlgAvan
-# projetoAlgAvan
+Projeto inspirado pela [Atividade de extensão](AEX.pdf) da professora Leo Sampaio Ferraz Ribeiro, da materia de Algoritmos Avançados.
+Escolhemos a opção 2, na qual faremos uma apresentação utilizando de algum dos algoritmos (teoria dos numeros, grafos, etc.) para ser
+útil à sociedade.
+
+
+📜 [Relatório/Descrição da demonstração](https://www.overleaf.com/read/wtjjknptwpbn#c349e5)  
+
+💡 [Ideias](ideas.txt)  
