@@ -5,6 +5,18 @@ ideias de fazer
  uma chave pública e uma chave privada (tem conteudo disso na materia de Matemática Discreta),
  a gente desenvolve um RSA 100% baseado em teoria dos números 
 
+  A Solução (Híbrida): É assim que o mundo real (como o HTTPS do seu navegador) funciona:
+
+    Você gera uma chave aleatória rápida para um algoritmo simétrico (como o AES).
+
+    Você usa essa chave AES rápida para criptografar sua "linha de informação" (seus dados).
+
+    Você usa o RSA (com a chave pública do destinatário) para criptografar apenas a chave AES.
+
+    Você envia o (Dado Criptografado com AES) + (Chave AES Criptografada com RSA).
+
+    O RSA não é usado para criptografar dados, mas sim para trocar chaves de forma segura.
+
 
 Backtracking e Força Bruta
  Agendamento de aulas, como a professora tinha dito. Fazer um alg que encontre quando uma certa materia pode

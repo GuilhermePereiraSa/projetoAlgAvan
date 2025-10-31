@@ -1,35 +1,16 @@
 import sys
 
-def crivo(n):
-    numeros = [True] * (n+1)
-    numeros[0] = numeros[1] = False
-    primos = []
-
-
-    for numero, primo in enumerate(numeros):
-
-        if primo:
-            primos.append(numero)
-
-            for i in range(2*numero, n+1, numero):
-                numeros[i] = False
-
-
-    return primos
-
-
-# Algoritmo RSA das ruas (Matemática Discreta) feito baseado na Teoria dos Números
-
-
+# Algoritmo Euclediano
 def mdc(a, b):
     if b == 0:
         return a
 
     return mdc(b, a % b)
 
-# p e q primos, geralmente grandes
 def main():
     # Escolha de primos aleatorios grandes, ou, digitados
+    # p e q primos, geralmente grandes
+    
     p, q = [int(x) for x in input().split()]
 
     # n, módulo
@@ -54,10 +35,20 @@ def main():
         print("Digite um valor válido de e")
 
 
+    
     # parte da criptografia
     # C(b), sendo b o bloco escolhido
 
+
+    # Solução de Padding -  OAEP ou PKCS#1 v1.5 - colocar lixo aleatorio
+    
+    # Conversão bytes <-> int: Usa int.from_bytes() para criptografar e int.to_bytes() para descriptografar.
+
     print("Digite o valor a ser criptografado")
+    # string -> bytes ( .encode('utf-8') ) -> numero inteiro ( ). criptografar este numero
+    
+    # Quais blocos podemos criptografar? Limitação pelo modulo n, sempre menor
+    
     # ou pegar todo o bloco e ir criptografando, mais real
 
     b = sys.stdin.readline()
@@ -73,9 +64,9 @@ def main():
     # tal que x é o inverso de 3 mod (p-1)(q-1)
     x = pow(e, -1, theta)
 
-    d = pow(c, d, n)
+    d = pow(c, x, n)
 
-    print(c)
+    print(d)
 
 if __name__ == "__main__":
     main()
