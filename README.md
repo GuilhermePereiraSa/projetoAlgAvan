@@ -4,10 +4,14 @@ Escolhemos a opção 2, na qual faremos uma apresentação utilizando teoria dos
 
 ## Compilação da atividade interativa
 Para compilar a atividade interativa, os seguintes passos são necessários:
+
 1- Baixe o projeto no github:
-https://github.com/GuilhermePereiraSa/projetoAlgAvan/
+[https://github.com/GuilhermePereiraSa/projetoAlgAvan/](https://github.com/GuilhermePereiraSa/projetoAlgAvan/tree/main/AtividadeInterativa)
+
 2- Baixe a Unity Engine (versão 6000.0.24f1):
 https://unity.com/pt/download
+
 3- Abra o projeto
+
 4- Selecione na barra de ferramentas: 
 File > Build and Run
