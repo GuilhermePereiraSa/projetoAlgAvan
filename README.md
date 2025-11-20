@@ -2,6 +2,9 @@ Projeto inspirado pela [Atividade de extensão](AEX.pdf) da professora Leo Sampa
 Escolhemos a opção 2, na qual faremos uma apresentação utilizando teoria dos números no algoritmo de RSA para ser
 útil à sociedade.
 
+## Rodando a atividade interativa
+Em Releases, baixe a última versão
+
 ## Compilação da atividade interativa
 Para compilar a atividade interativa, os seguintes passos são necessários:
 
